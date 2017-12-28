@@ -1,0 +1,15 @@
+/*table {
+  border: 1px solid black;
+}*/
+/*div {
+  border-style:solid;
+
+}*/
+div.space {
+  border-style: solid;
+  border-width: 1px;
+  background-color: #42b3f4;
+  height: 25px;
+  width: 30px;
+
+}
