@@ -15,6 +15,10 @@ A "Pass and Play" battleship game in JavaScript.
   * Battleship(B): 4 spaces  
   * Submarine(S): 3 spaces  
 * These ships can be placed horizontally or vertically, and cannot overlap.  
+#### Examples of Acceptable Input    
+* A:A1-A5;B:B6-E6;S:H3-J3  
+* A(A1-A5); B(B6-E6); S(H3-J3);  
+* B(B6-E6);S(H3-J3);A(A1-A5)   
 ### Taking Turns  
 1. After Player 2 has entered his/her name and ship arrangement   
 2. Player 1's turn begins. The top grid represents the space where your opponent placed the ships. The bottom grid represents the ships that you placed. Click a space on the top grid to fire a shot. You will be notified of a hit/miss.  
