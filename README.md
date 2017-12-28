@@ -22,5 +22,9 @@ Implements a "Pass and Play" battleship game in JavaScript
 4. Repeat steps 2 & 3 for Player 2  
 
 Players will keep taking turns until one of them loses all their ships.  
+## Scoring  
+The winner score is computed by the following:  
+For each ship's space that is not hit is worth 2 points. So a perfect score is 24.  
+The top 10 scores are stored in localStorage. When the game starts, the array of top scores is printed in the browser's console.  
 ## Screenshot  
 ![alt text](screenshot.png "battleship_screenshot")  
