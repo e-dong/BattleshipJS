@@ -4,7 +4,7 @@ Implements a "Pass and Play" battleship game in JavaScript
 * battleship.js: contains the logic for the game  
 * index.html: html page  
 ## How to Play  
-### Setup  
+### Starting the Game
 1. Player 1 enters his/her Name  
 2. Player 1 enters ship arrangement  
 3. Repeat step 1 & 2 for Player 2
@@ -13,10 +13,14 @@ Implements a "Pass and Play" battleship game in JavaScript
 * There are 3 ships:  
   * Aircraft Carrier(A): 5 spaces  
   * Battleship(B): 4 spaces  
-  * Submarine(S): 3 spaces long  
+  * Submarine(S): 3 spaces  
 * These ships can be placed horizontally or vertically, and cannot overlap.  
 ### Taking Turns  
 1. After Player 2 has entered his/her name and ship arrangement   
-2. Player 1's turn begins.
+2. Player 1's turn begins. The top grid represents the space where your opponent placed the ships. The bottom grid represents the ships that you placed. Click a space on the top grid to fire a shot. You will be notified of a hit/miss.  
+3. Click "End Turn" and pass to the other player  
+4. Repeat steps 2 & 3 for Player 2  
+
+Players will keep taking turns until one of them loses all their ships.  
 ## Screenshot  
 ![alt text](screenshot.png "battleship_screenshot")  
