@@ -11,9 +11,9 @@ Implements a "Pass and Play" battleship game in JavaScript
 ### Ship Arrangement Rules  
 * Ships will placed on a 10 x 10 grid, with rows labeled 1 - 10 and columns labeled A - J.  
 * There are 3 ships:  
-..* Aircraft Carrier(A): 5 spaces  
-..* Battleship(B): 4 spaces  
-..* Submarine(S): 3 spaces long  
+  * Aircraft Carrier(A): 5 spaces  
+  * Battleship(B): 4 spaces  
+  * Submarine(S): 3 spaces long  
 * These ships can be placed horizontally or vertically, and cannot overlap.  
 ### Taking Turns  
 1. After Player 2 has entered his/her name and ship arrangement   
