@@ -1,5 +1,5 @@
 # BattleshipJS
-Implements a "Pass and Play" battleship game in JavaScript  
+A "Pass and Play" battleship game in JavaScript.  
 ## Source Code  
 * battleship.js: contains the logic for the game  
 * index.html: html page  
