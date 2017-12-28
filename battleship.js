@@ -249,9 +249,10 @@ function checkScoreList(arr) {
 window.onload = function() {
   // endTurn Button will end the users turn, causes screen to blank out
   var endTurn = document.createElement("button");
-  endTurn.setAttribute("style", "height: 25px; width: 75px;");
+  endTurn.setAttribute("style", "height: 30px; width: 100px;");
+  endTurn.setAttribute("class", "btn btn-primary");
   endTurn.setAttribute("id", "endTurn");
-  var buttonText = document.createTextNode("End  Turn");
+  var buttonText = document.createTextNode("End Turn");
   endTurn.appendChild(buttonText);
   endTurn.addEventListener("click", function() {
   if (fireFlag == 1) { // if user has already  taken a shot, then prepare to switch turns
